@@ -66,6 +66,8 @@ Thumbs.db
 # Folder config file
 Desktop.ini
 
+*.ipch
+
 # Android
 .csettings
 
