@@ -141,10 +141,6 @@ namespace MainScreen {
 			PersonalNameLabel->Text = gcnew String(("Name: " + GetUserName(currentUserID) + " " + GetUserSurname(currentUserID)).c_str());
 			PersonalTeamStatusLabel->Text = gcnew String((GetRank(currentUserRank)).c_str());
 			PersonalTeamLabel->Text = gcnew String(("Team: " + getUserTeamName(currentUserID)).c_str());
-			this->BackgroundImage = Image::FromFile("C:\\Users\\Max\\Documents\\Visual Studio 2017\\Projects\\LoginScreen\\1511.jpg");
-			this->SettingsPanel->BackgroundImage = Image::FromFile("C:\\Users\\Max\\Documents\\Visual Studio 2017\\Projects\\LoginScreen\\1511.jpg");
-			this->DayEventsViewPanel->BackgroundImage = Image::FromFile("C:\\Users\\Max\\Documents\\Visual Studio 2017\\Projects\\LoginScreen\\1511.jpg");
-			this->SysInfoPanel->BackgroundImage = Image::FromFile("C:\\Users\\Max\\Documents\\Visual Studio 2017\\Projects\\LoginScreen\\1511.jpg");
 
 		}
 		void HelloUserShow() {

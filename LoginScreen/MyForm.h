@@ -27,7 +27,6 @@ namespace LoginScreen {
 		{
 			InitializeComponent();
 			textBox2->PasswordChar = '*';
-			this->BackgroundImage = Image::FromFile("C:\\Users\\Max\\Documents\\Visual Studio 2017\\Projects\\LoginScreen\\1511.jpg");
 			//
 			//TODO: Add the constructor code here
 			//
